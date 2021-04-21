@@ -3,13 +3,13 @@
     <head>
         @include('partials.head')
     </head>
-    <body class="antialiased">
-    <header class="container-fluid bg-white">
+    <body>
+    <header>
         @include('partials.navbar')
     </header>
-    <main id="main" class="row border">
-        @yield('content')
-    </main>
+   
+    @yield('content')
+    
     <footer class="container-fluid site-footer">
         @include('partials.footer')
     </footer>

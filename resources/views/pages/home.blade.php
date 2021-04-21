@@ -16,7 +16,7 @@
                     aria-describedby="slick-slide00"
                     style="width: 1343px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;"
                 >
-                    <img src="http://www.tmbcpc.com/wtos-images/870856_482467d4-8abe-4f55-ae4f-c22a07537e3a.jpg" alt="goldenTouch banner image" class="slider-bg" />
+                    <img src="{{ asset('wtos-images/870856_482467d4-8abe-4f55-ae4f-c22a07537e3a.jpg') }}" alt="goldenTouch banner image" class="slider-bg" />
 
                     <div class="banner_text">
                         <div class="slide-caption">
@@ -44,7 +44,7 @@
                     aria-describedby="slick-slide01"
                     style="width: 1343px; position: relative; left: -1343px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms linear 0s;"
                 >
-                    <img src="http://www.tmbcpc.com/wtos-images/628627_service-page-5-img.jpg" alt="goldenTouch banner image" class="slider-bg" />
+                    <img src="{{ asset('wtos-images/628627_service-page-5-img.jpg') }}" alt="goldenTouch banner image" class="slider-bg" />
 
                     <div class="banner_text">
                         <div class="slide-caption">
@@ -66,7 +66,7 @@
                     aria-describedby="slick-slide02"
                     style="width: 1343px; position: relative; left: -2686px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms linear 0s;"
                 >
-                    <img src="http://www.tmbcpc.com/wtos-images/297525_End-of-Lease-Cleaning-.jpg" alt="goldenTouch banner image" class="slider-bg" />
+                    <img src="{{ asset('wtos-images/297525_End-of-Lease-Cleaning-.jpg') }}" alt="goldenTouch banner image" class="slider-bg" />
 
                     <div class="banner_text">
                         <div class="slide-caption">
