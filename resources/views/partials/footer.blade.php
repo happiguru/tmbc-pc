@@ -32,14 +32,14 @@
                     <ul>
                         <li>
                             <div class="post-pic">
-                                <img src="http://www.tmbcpc.com/wtos-images/170468_bed-bugs-GT.jpg" alt="" />
+                                <img src="{{ asset('wtos-images/170468_bed-bugs-GT.jpg') }}" alt="" />
                             </div>
                             <h4><a href="#">How to Get Rid of Bedbugs-How to Kill them</a></h4>
                             <span class="date">09 Jan 2020</span>
                         </li>
                         <li>
                             <div class="post-pic">
-                                <img src="http://www.tmbcpc.com/wtos-images/287578_cleaning-999x600.png" alt="" />
+                                <img src="{{ asset('wtos-images/287578_cleaning-999x600.png') }}" alt="" />
                             </div>
 
                             <h4><a href="#">Importance of Professional Pest Control</a></h4>

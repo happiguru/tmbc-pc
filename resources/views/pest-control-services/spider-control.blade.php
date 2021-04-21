@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('content')
 <section class="page-title">
-    <div class="image"><img id="pageImage_ID" src="http://www.tmbcpc.com/wtos-images/687871_controllingspiders.jpg" alt="Tareeq Muwailah Bidg. Cleaning & Pest Control pest control dubai"/></div>
+    <div class="image"><img id="pageImage_ID" src="{{ asset('wtos-images/687871_controllingspiders.jpg') }}" alt="Tareeq Muwailah Bidg. Cleaning & Pest Control pest control dubai"/></div>
     <div class="pag_titl_sec">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
                     <h2>Spider Control</h2>
                     <ol class="breadcrumb">
-                        <li><a href="http://www.tmbcpc.com/">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>SpiderControl</li>
                     </ol>
                 </div>
@@ -34,7 +34,7 @@
                         food and shelter. The other common method of entry is accidentally hitchhiking inside boxes, on outdoor items and numerous other things that are brought inside your home or business premises.<br />
                         <br />
                         <br />
-                        <img alt="" src="http://www.tmbcpc.com/wtos-images/393169_banner_services_spiders.jpg" />
+                        <img alt="" src="{{ asset('wtos-images/393169_banner_services_spiders.jpg') }}" />
                     </p>
                     <p>
                         Spiders may be harboring outdoors in piles of firewood and debris, under items lying on the ground or in voids in hollow blocks, while others may live in attics and crawl spaces or other areas throughout the home. A

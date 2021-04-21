@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('content')
 <section class="page-title">
-    <div class="image"><img id="pageImage_ID" src="http://www.tmbcpc.com/wtos-images/523872_cockroach.jpg" alt="Tareeq Muwailah Bidg. Cleaning &amp; Pest Control pest control dubai"></div>
+    <div class="image"><img id="pageImage_ID" src="{{ asset('wtos-images/523872_cockroach.jpg') }}" alt="Tareeq Muwailah Bidg. Cleaning &amp; Pest Control pest control dubai"></div>
     <div class="pag_titl_sec">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
                     <h2>Cockroach Control</h2>
                     <ol class="breadcrumb">
-                        <li><a href="http://www.tmbcpc.com/">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>cockroach-control</li>
                     </ol>
                 </div>
@@ -39,7 +39,7 @@
                     </p>
                     <p>
                         <strong>DUBAI ROACHES</strong><br />
-                        <img class="alignleft" alt="" src="http://www.tmbcpc.com/wtos-images/320082_roaches.jpg" />These are dubai roaches, a tropical species that generally does not reproduce unless they are kept above 90F. So don't fret,
+                        <img class="alignleft" alt="" src="{{ asset('wtos-images/320082_roaches.jpg') }}" />These are dubai roaches, a tropical species that generally does not reproduce unless they are kept above 90F. So don't fret,
                         if one gets out in your house it won't be breeding unless you keep your house over 90 degrees at all times. They can't fly, and they can't climb glass or plastic, so the odds of one ever escaping are about zero. They
                         have no smell. Anyone who has ever tried to breed crickets for their chickens will tell you they can work up quite the stink. Dubai roaches have no smell at all. They don't make any noise - while breeding crickets is
                         likely to keep you up all night listening to chirping, these guys are completely silent. You'll never know they're there. They breed prolifically, each female laying up to 35 nymphs every other month. And unlike
@@ -49,7 +49,7 @@
                     </p>
                     <p>
                         <strong>GERMAN COCKROACH</strong><br />
-                        <img class="alignleft" alt="" src="http://www.tmbcpc.com/wtos-images/653686_cockroach1-300x248.jpg" />The German cockroach (Blatella germanica) is by far the most common roach found in kitchens. It is a half-inch
+                        <img class="alignleft" alt="" src="{{ asset('wtos-images/653686_cockroach1-300x248.jpg') }}" />The German cockroach (Blatella germanica) is by far the most common roach found in kitchens. It is a half-inch
                         long, bronze-colored insect that avoids light and hides in cracks and crevices. Adults and older nymphs have two black stripes on the back just behind the head.
                     </p>
                     <p>
@@ -68,7 +68,7 @@
                     </p>
                     <p>
                         <strong>ORIENTAL COCKROACH</strong><br />
-                        <strong><img class="alignleft" alt="" src="http://www.tmbcpc.com/wtos-images/549807_cockroach2-300x221.jpg" /></strong>The Oriental cockroach (Blatta orientalis) is the so-called “waterbug” of basements, crawlspaces
+                        <strong><img class="alignleft" alt="" src="{{ asset('wtos-images/549807_cockroach2-300x221.jpg') }}" /></strong>The Oriental cockroach (Blatta orientalis) is the so-called “waterbug” of basements, crawlspaces
                         and garages. It lives in cooler habitats with plenty of moisture – even outdoors around foundations in leaves and mulch where it can survive temperate winters. As a result, the Oriental cockroach’s development is
                         slower. They require an average of 18 months to progress from egg to adult, while the German cockroach averages only two months to adulthood. In addition, the Oriental’s egg case contains 16 eggs, compared to the
                         German’s 30 to 48 eggs per case. After being detached from the female, eggs inside the Oriental roach’s egg case require an average of two months to hatch.
@@ -79,7 +79,7 @@
                     </p>
                     <p>
                         <strong>&nbsp;AMERICAN COCKROACH</strong><br />
-                        <img class="alignleft" alt="" src="http://www.tmbcpc.com/wtos-images/8713_cockroach3-300x253.jpg" />The American cockroach (Periplaneta americana) is a large species, up to 2 inches long. It is reddish brown, but
+                        <img class="alignleft" alt="" src="{{ asset('wtos-images/8713_cockroach3-300x253.jpg') }}" />The American cockroach (Periplaneta americana) is a large species, up to 2 inches long. It is reddish brown, but
                         lighter around the edges of the thorax. Adults have wings extending to the end of the body. They can fly in temperatures above 85 F.
                     </p>
                     <p>American cockroaches are less common in homes than German cockroaches. They prefer sewers and boiler rooms, basements and steam tunnels in commercial establishments, especially where food is processed or prepared.</p>
@@ -89,7 +89,7 @@
                     </p>
                     <p>
                         <strong>BROWNBANDED COCKROACH</strong><br />
-                        <img class="alignleft" alt="" src="http://www.tmbcpc.com/wtos-images/237184_cockroach4.jpg" />This cockroach is sometimes encountered indoors, but it prefers higher temperatures (about 80 F) than the much more common
+                        <img class="alignleft" alt="" src="{{ asset('wtos-images/237184_cockroach4.jpg') }}" />This cockroach is sometimes encountered indoors, but it prefers higher temperatures (about 80 F) than the much more common
                         German cockroach. It loves the warmth of electronics, motor housings, light fixtures, and ceilings. When German cockroaches are found in nonfood areas (such as bedrooms), this may indicate a heavy infestation, lack
                         of hiding places, or use of a repellent pesticide – but such harboring in nonfood areas is typical of the brownbanded roach.
                     </p>

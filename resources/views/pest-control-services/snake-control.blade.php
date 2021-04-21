@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('content')
 <section class="page-title">
-    <div class="image"><img id="pageImage_ID" src="http://www.tmbcpc.com/wtos-images/667757_maxresdefault.jpg" alt="Tareeq Muwailah Bidg. Cleaning &amp; Pest Control pest control dubai"></div>
+    <div class="image"><img id="pageImage_ID" src="{{ asset('wtos-images/667757_maxresdefault.jpg') }}" alt="Tareeq Muwailah Bidg. Cleaning &amp; Pest Control pest control dubai"></div>
     <div class="pag_titl_sec">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
                     <h2>Snake Control</h2>
                     <ol class="breadcrumb">
-                        <li><a href="http://www.tmbcpc.com/">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>snake-control</li>
                     </ol>
                 </div>
@@ -38,7 +38,7 @@
                     <p>
                         <strong>Rattlesnake &nbsp;</strong><br />
                         <br />
-                        <img class="alignleft" alt="" src="http://www.tmbcpc.com/wtos-images/539759_rattlesnake.jpg" />Rattlesnakes can range from one to eight feet, depending on the species (the big one is the eastern diamondback). They
+                        <img class="alignleft" alt="" src="{{ asset('wtos-images/539759_rattlesnake.jpg') }}" />Rattlesnakes can range from one to eight feet, depending on the species (the big one is the eastern diamondback). They
                         are thick-bodied snakes with keeled (ridged) scales in a variety of colors and patterns. Most species are patterned with dark diamonds, rhombuses or hexagons on a lighter background.
                     </p>
                     <p>

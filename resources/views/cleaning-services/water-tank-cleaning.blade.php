@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('content')
 <section class="page-title">
-    <div class="image"><img id="pageImage_ID" src="http://www.tmbcpc.com/wtos-images/441946_WT_BANNER.jpg" alt="Tareeq Muwailah Bidg. Cleaning & Pest Control pest control dubai"/></div>
+    <div class="image"><img id="pageImage_ID" src="{{ asset('wtos-images/441946_WT_BANNER.jpg') }}" alt="Tareeq Muwailah Bidg. Cleaning & Pest Control pest control dubai"/></div>
     <div class="pag_titl_sec">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
                     <h2>Water Tank Cleaning</h2>
                     <ol class="breadcrumb">
-                        <li><a href="http://www.tmbcpc.com/">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>WaterTankCleaning</li>
                     </ol>
                 </div>
@@ -23,7 +23,7 @@
                 <div class="wpb_wrapper">
                     <h2>WATER TANK CLEANING</h2>
                     <p>
-                        <img class="alignleft" alt="" src="http://www.tmbcpc.com/wtos-images/430471_Wt.jpg" />The cleaning and disinfecting of water tanks is highly important for a hygienic life. It is from these water tanks that the water
+                        <img class="alignleft" alt="" src="{{ asset('wtos-images/430471_Wt.jpg') }}" />The cleaning and disinfecting of water tanks is highly important for a hygienic life. It is from these water tanks that the water
                         for consumption is supplied. Therefore, the cleaner the water tank, the healthier our life.<br />
                         It is a well known fact that contaminated water is one of the most common causes of illness to mankind. Around 60% of diseases caused to humans are water-borne, with children below 5 years more susceptible. One of
                         the most usual ways of water getting contaminated is via the manner in which a water storage tank is maintained. A large number of people either neglect the thorough cleaning of the water tank or simply opt for
