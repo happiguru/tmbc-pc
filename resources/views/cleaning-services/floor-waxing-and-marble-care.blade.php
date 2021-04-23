@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('content')
 <section class="page-title">
-    <div class="image"><img id="pageImage_ID" src="http://www.tmbcpc.com/wtos-images/878815_flr-banner2.jpg" alt="Tareeq Muwailah Bidg. Cleaning & Pest Control pest control dubai"/></div>
+    <div class="image"><img id="pageImage_ID" src="{{ asset('wtos-images/878815_flr-banner2.jpg') }}" alt="Tareeq Muwailah Bidg. Cleaning & Pest Control pest control dubai"/></div>
     <div class="pag_titl_sec">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
                     <h2>Floor Waxing and Marble Care</h2>
                     <ol class="breadcrumb">
-                        <li><a href="http://www.tmbcpc.com/">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>floor-waxing-and-marble-care</li>
                     </ol>
                 </div>
@@ -23,7 +23,7 @@
                 <div class="wpb_wrapper">
                     <h2>FLOOR WAXING AND MARBLE CARE</h2>
                     <p>
-                        <img class="alignleft" alt="" src="http://www.tmbcpc.com/wtos-images/607424_marble_floor1.jpg" />The clear and tidy floors of your building leave footprints in the minds of your customers and clients. The floor when
+                        <img class="alignleft" alt="" src="{{ asset('wtos-images/607424_marble_floor1.jpg') }}" />The clear and tidy floors of your building leave footprints in the minds of your customers and clients. The floor when
                         new appear striking and adds to the appearance of any building but as time passes it can lose its sheen. However, stripped and waxed floor can maintain its brilliance for many years if maintained properly. Our floor
                         waxing service in Dubai and Sharjah are highly customized thus suits any type of floor. Depending upon the type of floor, procedures and solutions are used to obtain the efficient results.
                     </p>

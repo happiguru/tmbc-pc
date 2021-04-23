@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('content')
 <section class="page-title">
-    <div class="image"><img id="pageImage_ID" src="http://www.tmbcpc.com/wtos-images/597243_office-cleaning-bannerimg.jpg" alt="Tareeq Muwailah Bidg. Cleaning & Pest Control pest control dubai"/></div>
+    <div class="image"><img id="pageImage_ID" src="{{ asset('wtos-images/597243_office-cleaning-bannerimg.jpg') }}" alt="Tareeq Muwailah Bidg. Cleaning & Pest Control pest control dubai"/></div>
     <div class="pag_titl_sec">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
                     <h2>Building Cleaning Service</h2>
                     <ol class="breadcrumb">
-                        <li><a href="http://www.tmbcpc.com/">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Building-Cleaning-Service</li>
                     </ol>
                 </div>
@@ -23,7 +23,7 @@
                 <div class="wpb_wrapper">
                     <h2>Building Cleaning Service</h2>
                     <p>
-                        <img alt="" src="http://www.tmbcpc.com/wtos-images/88780_b9b385a9f976824d3efe6ccda0f70456.jpg" /><br />
+                        <img alt="" src="{{ asset('wtos-images/88780_b9b385a9f976824d3efe6ccda0f70456.jpg') }}" /><br />
                         <br />
                         Based in Dubai, we bring in years and years of experience and extensive in office and commercial cleaning services. You can call us a dedicated team of professionals who have been a part of the services industry
                         since the beginning of time, so we truly understand what your customers expect. The reason why customers like and choose to work with us is because of reliability, flexibility, credibility and above all

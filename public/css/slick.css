@@ -76,10 +76,10 @@
 {
     display: none;
     float: left;
-    border: 2px solid red;
     height: 100vh;
     min-height: 1px;
 }
+
 [dir='rtl'] .slick-slide
 {
     float: right;

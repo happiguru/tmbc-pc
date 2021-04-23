@@ -64,7 +64,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="http://www.tmbcpc.com/">
+                <a class="navbar-brand" href="/">
                     <img src="{{ asset('images/logo.jpg') }}" alt="tmbcpc logo" />
                 </a>
             </div>

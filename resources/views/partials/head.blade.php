@@ -6,8 +6,6 @@
 
 <!-- CSRF Token -->
 <meta name="csrf-token" content="{{ csrf_token() }}">
-<script src="{{ asset('js/apps.js') }}" defer></script>
-<link href="{{ asset('css/apps.css') }}" rel="stylesheet">
 <meta name="keywords" content="Pest control,Pest control Services,Pest control Sharjah,Pest control in Sharjah,Pest control Dubai,Tareeq Muwaileh Building Cleaning and Pest control" />
 <meta name="description" content="Tareeq Muwaileh Building Cleaning and Pest control. We provide pest control services in dubai , pest control services in Sharjah . " />
 <link rel="icon" type="image/png" href="{{ asset('images/logo.jpg') }}" />
@@ -17,8 +15,6 @@
 <link href="{{ asset('css/themify-icons.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/flaticon.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
-<!-- Bootstrap core CSS -->
-<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
 <!-- Plugins for this template -->
 <link href="{{ asset('css/animate.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/owl.carousel.css') }}" rel="stylesheet" />
@@ -28,8 +24,12 @@
 <link href="{{ asset('css/owl.transitions.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.min.css') }}" />
 <!-- Custom styles for this template -->
+<!-- Bootstrap core CSS -->
+<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/rasponsive.css') }}" rel="stylesheet" />
+<script src="{{ asset('js/apps.js') }}" defer></script>
+<link href="{{ asset('css/apps.css') }}" rel="stylesheet">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <script type="text/javascript" src="{{ asset('js/wtos-1.1.js') }}"></script>
