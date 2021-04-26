@@ -28,11 +28,10 @@
 <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/rasponsive.css') }}" rel="stylesheet" />
-<script src="{{ asset('js/apps.js') }}" defer></script>
-<link href="{{ asset('css/apps.css') }}" rel="stylesheet">
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-<script type="text/javascript" src="{{ asset('js/wtos-1.1.js') }}"></script>
+<script type="text/javascript" src="{{ asset('jss/wtos-1.1.js') }}"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171607511-1"></script>
 <script>

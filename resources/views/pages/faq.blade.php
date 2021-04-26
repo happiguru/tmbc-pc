@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('content')
 <section class="page-title">
-    <div class="image"><img id="pageImage_ID" src="http://www.tmbcpc.com/wtos-images/396838_frq.jpg" alt="Tareeq Muwailah Bidg. Cleaning &amp; Pest Control pest control dubai"></div>
+    <div class="image"><img id="pageImage_ID" src="{{ asset('wtos-images/396838_frq.jpg') }}" alt="Tareeq Muwailah Bidg. Cleaning &amp; Pest Control pest control dubai"></div>
     <div class="pag_titl_sec">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
                     <h2>Pest Control Products</h2>
                     <ol class="breadcrumb">
-                        <li><a href="http://www.tmbcpc.com/">Home</a></li>
+                        <li><a href="">Home</a></li>
                         <li>faq</li>
                     </ol>
                 </div>
@@ -125,7 +125,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="image-holder"><img alt="" src="http://www.tmbcpc.com/wtos-images/587382_faq.jpg" /></div>
+                <div class="image-holder"><img alt="" src="{{ asset('wtos-images/587382_faq.jpg') }}" /></div>
             </div>
         </div>
     </div>

@@ -139,6 +139,10 @@ img {
 
 }
 
+.mySlides {
+    width: 100%;
+}
+
 
 
 /*--------------------------------------------------------------
@@ -489,7 +493,7 @@ img {
 
     opacity: 0;
 
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden; */
 
     -webkit-transition: all 0.3s ease-out;
 
@@ -1172,16 +1176,6 @@ img {
 
 ****************************************/
 
-.service-sidebar {
-
-    /*** service-list-widget ***/
-
-    /*** download-widget ***/
-
-    /*** contact-widget ***/
-
-}
-
 
 
 @media (max-width: 991px) {
@@ -1373,19 +1367,6 @@ img {
 	blog sidebar
 
 ****************************************/
-
-.blog-sidebar {
-
-    /*** search-widget ***/
-
-    /*** categories-widget ***/
-
-    /*** popular-product-widget ***/
-
-    /*** tag-widget ***/
-
-}
-
 
 
 @media screen and (min-width: 1200px) {
@@ -2332,16 +2313,6 @@ img {
 
 --------------------------------------------------------------*/
 
-.site-header {
-
-    /* navigation open and close btn hide for width screen */
-
-    /* style for navigation less than 992px */
-
-    /*navbar collaps less then 992px*/
-
-}
-
 
 
 .site-header .navigation {
@@ -2399,11 +2370,6 @@ img {
 
 @media screen and (min-width: 992px) {
 
-    .site-header #navbar {
-
-        /*** hover effect ***/
-
-    }
 
     .site-header #navbar li {
 
@@ -2456,12 +2422,6 @@ img {
         -ms-transition: all 0.3s;
 
         transition: all 0.3s;
-
-    }
-
-    .site-header #navbar > ul > li .sub-menu li {
-
-
 
     }
 
@@ -2616,12 +2576,6 @@ img {
 
 
 @media screen and (min-width: 992px) {
-
-    .site-header #navbar {
-
-        /*** hover effect ***/
-
-    }
 
     .site-header #navbar .has-mega-menu {
 
@@ -2822,12 +2776,6 @@ img {
 
 
 @media (max-width: 991px) {
-
-    .site-header {
-
-        /* class for show hide navigation */
-
-    }
 
     .site-header .container {
 
@@ -3038,15 +2986,6 @@ img {
 	header style 1
 
 ----------------------------------------------*/
-
-.header-style-1, .header-style-2 {
-
-    /*** topbar ***/
-
-    /*** navigation ***/
-
-}
-
 
 
 .header-style-1 .topbar, .header-style-2 .topbar {
@@ -3267,16 +3206,6 @@ img {
     }
 
 }
-
-
-
-.header-style-1 .topbar .social-quote > div:last-child, .header-style-2 .topbar .social-quote > div:last-child {
-
-
-
-}
-
-
 
 @media (max-width: 991px) {
 
@@ -4089,8 +4018,6 @@ img {
 
 }
 
-
-
 .hero .slide-caption > div * {
 
     -webkit-animation: fadeOutLeft 1.5s both;
@@ -4099,20 +4026,18 @@ img {
 
 }
 
-
-
 .hero .slide-caption > div.slide-title * {
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
 }
 
 
 
 .hero .slide-caption > div.slide-subtitle * {
 
-    -webkit-animation-delay: 0s;
+    -webkit-animation-delay: 1.5s;
 
-    animation-delay: 0s;
+    animation-delay: 1.5s;
 
 }
 
@@ -4120,39 +4045,26 @@ img {
 
 .hero .slide-caption > div.btns * {
 
-    -webkit-animation-delay: 0s;
+    -webkit-animation-delay: 1.5s;
 
-    animation-delay: 0s;
+    animation-delay: 1.5s;
 
 }
-
-
 
 .hero .hero-slider .slick-current .slide-caption > div * {
-
     -webkit-animation-name: fadeInLeft;
-
     animation-name: fadeInLeft;
-
 }
 
-
-
-.hero .hero-slider .slick-current .slide-caption > div.slide-title * {
-
+.hero .hero-slider .slide-caption > div.slide-title * {
     -webkit-animation-delay: 1.5s;
     animation-delay: 1.5s;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
     color: yellow;
-
 }
 
-
-
 .hero .hero-slider .slick-current .slide-caption > div.slide-subtitle * {
-
     -webkit-animation-delay: 0.5s;
-
     animation-delay: 0.5s;
 
 }
@@ -4539,10 +4451,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56AB54', end
     }
 
 }
-
-
-
-.site-footer .contact-info{}
 
 .site-footer .contact-info h4{ margin:0 0 10px 0px; font-size:16px; font-weight:400; color:#FFFFFF; line-height:1.9;}
 
@@ -6509,16 +6417,6 @@ Contact form
 
 --------------------------------------------------------------*/
 
-.contact-section {
-
-    /* border-bottom: 1px solid #e9e6e6;*/
-
-    /*** contact-info-area ***/
-
-}
-
-
-
 .contact-section .contact-form {
 
     position: relative;
@@ -8241,14 +8139,6 @@ Contact form
 
 --------------------------------------------------------------*/
 
-.service-single-section {
-
-    /*** service single tab ***/
-
-}
-
-
-
 @media screen and (min-width: 1200px) {
 
     .service-single-section .service-single-content {
@@ -9562,22 +9452,6 @@ Contact form
 #8.0	blog-single-section
 
 --------------------------------------------------------------*/
-
-.blog-single-section {
-
-    /*** tag-share ***/
-
-    /*** author-box ***/
-
-    /*** more-posts ***/
-
-    /*** comments area ***/
-
-    /*** comment-respond ***/
-
-}
-
-
 
 @media screen and (min-width: 992px) {
 
@@ -11163,8 +11037,6 @@ Contact form
 
 .gallary-section .col .photo{ margin-bottom:30px;}
 
-.gallary-section .col .photo a{}
-
 .pagenation{ margin:10px 0px; padding:0px;}
 
 .pagenation a{ display:inline-block; padding:5px 10px; color:#777; font-size:16px; text-decoration:none; border:1px solid #ccc; margin:3px;}
@@ -11176,7 +11048,6 @@ Contact form
 
 }
 @media (max-width: 360px) {
-    .gallary-section {}
     .gallary-section .col .image {
         max-height: 140px;
         min-height: 140px;
@@ -11198,7 +11069,6 @@ Contact form
 .wpb_wrapper ul li{ margin:5px 0;}
 .wpb_wrapper .alignleft{float: left;margin: 5px 20px 20px 0}
 
-.services_link{}
 .services_link h3{font-size: 18px;font-weight: 600; margin:0 0 20px 0;}
 .services_link h3:after{border-top: 2px solid #009103 !important; content: '';
     margin-top: 10px;

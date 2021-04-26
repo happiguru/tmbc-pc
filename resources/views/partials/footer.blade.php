@@ -101,9 +101,19 @@
 </div>
 <!-- All JavaScript files
 ================================================== -->
-<script src="http://www.tmbcpc.com/wtosApps/js/jquery.min.js"></script>
-<script src="http://www.tmbcpc.com/wtosApps/js/bootstrap.min.js"></script>
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <!-- Plugins for this template -->
-<script src="http://www.tmbcpc.com/wtosApps/js/jquery-plugin-collection.js"></script>
+<script src="{{ asset('js/jquery-plugin-collection.js') }}"></script>
 <!-- Custom script for this template -->
-<script src="http://www.tmbcpc.com/wtosApps/js/script.js"></script>
+<script src="{{ asset('js/script.js') }}"></script>
+<script src="{{ asset('js/slide.js') }}" ></script>
+<script src="{{ asset('js/app.js') }}"></script>
+<script>
+    $(function(){
+        $('#navbar li a').filter(function(){return this.href==location.href}).parent().addClass('active').siblings().removeClass('active')
+        $('.#navbar li a').click(function(){
+            $(this).parent().addClass('active').siblings().removeClass('active')    
+        })
+    })
+</script>

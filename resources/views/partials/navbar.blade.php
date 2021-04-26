@@ -29,14 +29,14 @@
                     <div class="contact-info">
                         <ul>
                             <li>
-                                <i class="far fa-envelope"><!--aa--></i><a style="color: white;" href="mailto:info@tmbcpc.com">info@tmbcpc.com</a>
+                                <i class="fas fa-envelope"><!--aa--></i><a style="color: white;" href="mailto:info@tmbcpc.com">info@tmbcpc.com</a>
                             </li>
                             <li>
                                 <i class="fas fa-phone"><!--aa--></i><a style="color: white;" href="tel:0507563932">050 7563 932</a>
                             </li>
                             <li>
                                 <i class="fab fa-whatsapp-">
-                                    <img alt="" src="{{ asset('images/309026_whats.png') }}" height="16" width="16" />
+                                    <img alt="" src="{{ asset('wtos-images/309026_whats.png') }}" height="16" width="16" />
                                     <!--aa-->
                                 </i>
                                 <a style="color: white;" href="https://wa.me/0556980116">055 6980 116</a>
