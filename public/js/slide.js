@@ -25,21 +25,26 @@ function showSlides(n) {
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 
+$("#news-slider").owlCarousel({
+	items : 3,
+	itemsDesktop:[1199,3],
+	itemsDesktopSmall:[980,2],
+	itemsMobile : [600,1],
+	navigation:true,
+	navigationText:["",""],
+	pagination:true,
+	autoPlay:true
+});
 
-// $(document).ready(function () {
-//   $('#navbar ul li a').click(function(e) {
-
-//       $('#navbar ul li.active').removeClass('active');
-
-//       var $parent = $(this).parent();
-//       $parent.addClass('active');
-//       e.preventDefault();
-//   });
-// });
-
-$(function(){
-  $('#navbar li a').filter(function(){return this.href==location.href}).parent().addClass('active').siblings().removeClass('active')
-  $('.#navbar li a').click(function(){
-      $(this).parent().addClass('active').siblings().removeClass('active')    
-  })
-})
+$("#testimonial-slider").owlCarousel({
+  items:1,
+  itemsDesktop:[1000,1],
+  itemsDesktopSmall:[979,1],
+  itemsTablet:[768,1],
+  pagination:true,
+  navigation:false,
+  navigationText:["",""],
+  slideSpeed:1000,
+  singleItem:true,
+  autoPlay:true
+});

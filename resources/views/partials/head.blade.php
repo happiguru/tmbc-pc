@@ -16,6 +16,8 @@
 <link href="{{ asset('css/flaticon.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
 <!-- Plugins for this template -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
 <link href="{{ asset('css/animate.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/owl.carousel.css') }}" rel="stylesheet" />
 <link href="{{ asset('css/owl.theme.css') }}" rel="stylesheet" />

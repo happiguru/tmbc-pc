@@ -182,290 +182,128 @@
 </section>
 
 <section class="services-section-s2 section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                <div class="section-title">
-                    <h2>Our Services</h2>
-                    <p>We Offer Latest In Pest Control And Water Tank Cleaning Technology</p>
-                </div>
-            </div>
-        </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+    <div class="section-title">
+        <h2>Our Services</h2>
+        <p>We Offer Latest In Pest Control And Water Tank Cleaning Technology</p>
     </div>
-
-    <div class="row">
-        <div class="col col-xs-12">
-            <div class="service-grids services-slider clearfix owl-carousel owl-theme owl-loaded">
-                <div class="owl-stage-outer">
-                    <div class="owl-stage" style="transform: translate3d(-1641.25px, 0px, 0px); transition: all 0.3s ease 0s; width: 4983.75px; padding-left: 30px; padding-right: 30px;">
-                        <div class="owl-item cloned" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/619379_depcleaning-.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>04.</span>-->Deep Hygienic Cleaning Services</a>
-                                    </h3>
-
-                                    <p></p>
-                                    <p>We aim at making people’s lives easier and better. Amidst the current times and scenarios, ...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="/deep-cleaning-services">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/160611_corporatecleaning.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>05.</span>-->Corporate cleaning services</a>
-                                    </h3>
-
-                                    <p></p>
-                                    <p>The cleanliness of your workplace or office is one of the first things that your clients will not...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="/carpet-cleaning">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/765736_residential.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>06.</span>-->Residential Cleaning Services</a>
-                                    </h3>
-
-                                    <p>If you ‘re looking for the best cleaning company in Dubai to help with freshening up your flat or ...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/959368_pigeon.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>07.</span>-->PIGEON CONTROL</a>
-                                    </h3>
-
-                                    <p>Pigeons generally nest in small, flat areas away from the ground such as building ledges, air condit...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/516963_rat-3534317_1920.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>01.</span>-->Rodent Control</a>
-                                    </h3>
-
-                                    <p></p>
-                                    <p>Weil’s Disease (Leptospirosis) Weil’s disease is a form of a bacterial infection also...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="/rat-control">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/905078_gc.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>02.</span>-->Cockroach Control</a>
-                                    </h3>
-
-                                    <p></p>
-                                    <p>Cockroaches are one of the most reviled of household pests and are difficult to control due to th...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="/cockroach-control">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/434359_Bed_bug.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>03.</span>-->Bed Bug Removal and Control Service</a>
-                                    </h3>
-
-                                    <p></p>
-                                    <p>Bed Bugs inject spittle into your skin which may cause dangerous reactions, pathological state li...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="/bed-bug-control">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/619379_depcleaning-.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>04.</span>-->Deep Hygienic Cleaning Services</a>
-                                    </h3>
-
-                                    <p></p>
-                                    <p>We aim at making people’s lives easier and better. Amidst the current times and scenarios, ...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="/deep-cleaning-services">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/160611_corporatecleaning.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>05.</span>-->Corporate cleaning services</a>
-                                    </h3>
-
-                                    <p></p>
-                                    <p>The cleanliness of your workplace or office is one of the first things that your clients will not...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="/carpet-cleaning">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/765736_residential.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>06.</span>-->Residential Cleaning Services</a>
-                                    </h3>
-
-                                    <p>If you ‘re looking for the best cleaning company in Dubai to help with freshening up your flat or ...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/959368_pigeon.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>07.</span>-->PIGEON CONTROL</a>
-                                    </h3>
-
-                                    <p>Pigeons generally nest in small, flat areas away from the ground such as building ledges, air condit...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/516963_rat-3534317_1920.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>01.</span>-->Rodent Control</a>
-                                    </h3>
-
-                                    <p></p>
-                                    <p>Weil’s Disease (Leptospirosis) Weil’s disease is a form of a bacterial infection also...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="/rat-control">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/905078_gc.jpg') }}" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>02.</span>-->Cockroach Control</a>
-                                    </h3>
-
-                                    <p></p>
-                                    <p>Cockroaches are one of the most reviled of household pests and are difficult to control due to th...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="/cockroach-control">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/628627_service-page-5-img.jpg') }}434359_Bed_bug.jpg" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>03.</span>-->Bed Bug Removal and Control Service</a>
-                                    </h3>
-
-                                    <p></p>
-                                    <p>Bed Bugs inject spittle into your skin which may cause dangerous reactions, pathological state li...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="/bed-bug-control">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 298.25px; margin-right: 30px;">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <img src="{{ asset('wtos-images/628627_service-page-5-img.jpg') }}619379_depcleaning-.jpg" alt="" />
-                                </div>
-
-                                <div class="details text-center">
-                                    <h3>
-                                        <a href="Services"><!--<span>04.</span>-->Deep Hygienic Cleaning Services</a>
-                                    </h3>
-
-                                    <p></p>
-                                    <p>We aim at making people’s lives easier and better. Amidst the current times and scenarios, ...</p>
-                                    <a class="theme-btn" style="margin: 20px auto 0;" href="/deep-cleaning-services">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-controls">
-                    <div class="owl-nav">
-                        <div class="owl-prev" style="display: none;">prev</div>
-                        <div class="owl-next" style="display: none;">next</div>
-                    </div>
-                    <div class="owl-dots" style="">
-                        <div class="owl-dot active"><span></span></div>
-                        <div class="owl-dot"><span></span></div>
-                    </div>
-                </div>
-            </div>
+      <div id="news-slider" class="owl-carousel">
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="{{ asset('wtos-images/619379_depcleaning-.jpg') }}" alt="" />
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+                <a href="Services">Deep Hygienic Cleaning Services</a>
+            </h3>
+            <p class="post-description">We aim at making people’s lives easier and better. Amidst the current times and scenarios, ...</p>
+            <a class="read-more" href="/deep-cleaning-services">View More</a>
+          </div>
         </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="{{ asset('wtos-images/160611_corporatecleaning.jpg') }}" alt="" />
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+                <a href="Services">Corporate cleaning services</a>
+            </h3>
+            <p class="post-description">The cleanliness of your workplace or office is one of the first things that your clients will not...</p>
+            <a class="read-more" href="/carpet-cleaning">View More</a>
+          </div>
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+          <img src="{{ asset('wtos-images/765736_residential.jpg') }}" alt="" />
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+            <a href="Services">Residential Cleaning Services</a>
+            </h3>
+            <p class="post-description">If you ‘re looking for the best cleaning company in Dubai to help with freshening up your flat or ...</p>
+            <a class="read-more" href="">View More</a>
+          </div>
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="{{ asset('wtos-images/959368_pigeon.jpg') }}" alt="" />
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+                <a href="Services">PIGEON CONTROL</a>
+            </h3>
+            <p class="post-description">Pigeons generally nest in small, flat areas away from the ground such as building ledges, air condit...</p>
+            <a class="read-more" href="#">View More</a>
+          </div>
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="{{ asset('wtos-images/516963_rat-3534317_1920.jpg') }}" alt="" />
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+            <a href="Services">Rodent Control</a>
+            </h3>
+            <p class="post-description">Weil’s Disease (Leptospirosis) Weil’s disease is a form of a bacterial infection also...</p>
+            <a class="read-more" href="/rat-control">View More</a>
+          </div>
+        </div>
+
+        <div class="post-slide">
+          <div class="post-img">
+          <img src="{{ asset('wtos-images/905078_gc.jpg') }}" alt="" />
+          <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+                <a href="Services">Cockroach Control</a>
+            </h3>
+            <p class="post-description">Cockroaches are one of the most reviled of household pests and are difficult to control due to th...</p>
+            <a class="read-more" href="/cockroach-control">View More</a>
+          </div>
+        </div>
+        <div class="post-slide">
+          <div class="post-img">
+          <img src="{{ asset('wtos-images/434359_Bed_bug.jpg') }}" alt="" />
+          <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+                <a href="Services">Bed Bug Removal and Control Service</a>
+            </h3>
+            <p class="post-description">Bed Bugs inject spittle into your skin which may cause dangerous reactions, pathological state li...</p>
+            <a class="read-more" href="/bed-bug-control">View More</a>
+          </div>
+        </div>
+        <div class="post-slide">
+          <div class="post-img">
+          <img src="{{ asset('wtos-images/160611_corporatecleaning.jpg') }}" alt="" />
+          <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+                <a href="Services">Corporate cleaning services</a>
+            </h3>
+            <p class="post-description">The cleanliness of your workplace or office is one of the first things that your clients will not...</p>
+            <a class="read-more" href="/carpet-cleaning">View More</a>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
 </section>
-
 <section class="cta-section">
     <div class="container">
         <div class="row">
@@ -580,188 +418,56 @@
 <section class="testimonials-section">
     <div class="container">
         <div class="row">
-            <div class="col col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
-                <div class="testimonials-grids testimonials-slider owl-carousel owl-theme owl-loaded owl-text-select-on">
-                    <div class="owl-stage-outer">
-                        <div class="owl-stage" style="transform: translate3d(-1560px, 0px, 0px); transition: all 0s ease 0s; width: 7800px;">
-                            <div class="owl-item cloned" style="width: 750px; margin-right: 30px;">
-                                <div class="grid">
-                                    <div class="client-info">
-                                        <div class="client-pic">
-                                            <img src="{{ asset('wtos-images/995147_images.jpg') }}" alt="" />
-                                        </div>
-
-                                        <h5>Supriya Chourasia</h5>
-
-                                        <span></span>
-                                    </div>
-                                    <div class="quote">
-                                        <p>Get in touch with us for the best Service and Treatment</p>
-                                    </div>
+        <div class="col-md-offset-2 col-md-8">
+                    <div id="testimonial-slider" class="owl-carousel">
+                        <div class="grid">
+                            <div class="client-info">
+                                <div class="client-pic">
+                                    <img src="{{ asset('wtos-images/572820_images.jpg') }}" alt="" />
                                 </div>
+                                <h5>Md Afsar Ali</h5>
                             </div>
-                            <div class="owl-item cloned" style="width: 750px; margin-right: 30px;">
-                                <div class="grid">
-                                    <div class="client-info">
-                                        <div class="client-pic">
-                                            <img src="{{ asset('wtos-images/535619_images.jpg') }}" alt="" />
-                                        </div>
-
-                                        <h5>md ahasan</h5>
-
-                                        <span></span>
-                                    </div>
-                                    <div class="quote">
-                                        <p>Get in touch with us for the best Service and Treatment</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item active" style="width: 750px; margin-right: 30px;">
-                                <div class="grid">
-                                    <div class="client-info">
-                                        <div class="client-pic">
-                                            <img src="{{ asset('wtos-images/424934_images.jpg') }}" alt="" />
-                                        </div>
-
-                                        <h5>Asif Ahmed</h5>
-
-                                        <span></span>
-                                    </div>
-                                    <div class="quote">
-                                        <p>Well behaved, good environment, quality treatment, and excellent service...</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 750px; margin-right: 30px;">
-                                <div class="grid">
-                                    <div class="client-info">
-                                        <div class="client-pic">
-                                            <img src="{{ asset('wtos-images/572820_images.jpg') }}" alt="" />
-                                        </div>
-
-                                        <h5>Md Afsar Ali</h5>
-
-                                        <span></span>
-                                    </div>
-                                    <div class="quote">
-                                        <p>Well behaved, good environment, quality treatment, and excellent service...</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 750px; margin-right: 30px;">
-                                <div class="grid">
-                                    <div class="client-info">
-                                        <div class="client-pic">
-                                            <img src="{{ asset('wtos-images/944987_images.jpg') }}" alt="" />
-                                        </div>
-
-                                        <h5>Richa Nangalia</h5>
-
-                                        <span></span>
-                                    </div>
-                                    <div class="quote">
-                                        <p>Well behaved, good environment, quality treatment, and excellent service...</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 750px; margin-right: 30px;">
-                                <div class="grid">
-                                    <div class="client-info">
-                                        <div class="client-pic">
-                                            <img src="{{ asset('wtos-images/158424_images.jpg') }}" alt="" />
-                                        </div>
-
-                                        <h5>Anirban Choudhury</h5>
-
-                                        <span></span>
-                                    </div>
-                                    <div class="quote">
-                                        <p>Get in touch with us for the best Service and Treatment</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 750px; margin-right: 30px;">
-                                <div class="grid">
-                                    <div class="client-info">
-                                        <div class="client-pic">
-                                            <img src="{{ asset('wtos-images/995147_images.jpg') }}" alt="" />
-                                        </div>
-
-                                        <h5>Supriya Chourasia</h5>
-
-                                        <span></span>
-                                    </div>
-                                    <div class="quote">
-                                        <p>Get in touch with us for the best Service and Treatment</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item" style="width: 750px; margin-right: 30px;">
-                                <div class="grid">
-                                    <div class="client-info">
-                                        <div class="client-pic">
-                                            <img src="{{ asset('wtos-images/535619_images.jpg') }}" alt="" />
-                                        </div>
-
-                                        <h5>md ahasan</h5>
-
-                                        <span></span>
-                                    </div>
-                                    <div class="quote">
-                                        <p>Get in touch with us for the best Service and Treatment</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item cloned" style="width: 750px; margin-right: 30px;">
-                                <div class="grid">
-                                    <div class="client-info">
-                                        <div class="client-pic">
-                                            <img src="{{ asset('wtos-images/424934_images.jpg') }}" alt="" />
-                                        </div>
-
-                                        <h5>Asif Ahmed</h5>
-
-                                        <span></span>
-                                    </div>
-                                    <div class="quote">
-                                        <p>Well behaved, good environment, quality treatment, and excellent service...</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="owl-item cloned" style="width: 750px; margin-right: 30px;">
-                                <div class="grid">
-                                    <div class="client-info">
-                                        <div class="client-pic">
-                                            <img src="{{ asset('wtos-images/572820_images.jpg') }}" alt="" />
-                                        </div>
-
-                                        <h5>Md Afsar Ali</h5>
-
-                                        <span></span>
-                                    </div>
-                                    <div class="quote">
-                                        <p>Well behaved, good environment, quality treatment, and excellent service...</p>
-                                    </div>
-                                </div>
+                            <div class="quote">
+                                <p>Well behaved, good environment, quality treatment, and excellent service...</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="owl-controls">
-                        <div class="owl-nav">
-                            <div class="owl-prev" style="display: none;">prev</div>
-                            <div class="owl-next" style="display: none;">next</div>
+
+                        <div class="grid">
+                            <div class="client-info">
+                                <div class="client-pic">
+                                <img src="{{ asset('wtos-images/424934_images.jpg') }}" alt="" />
+                                </div>
+                                <h5>Asif Ahmed</h5>
+                            </div>
+                            <div class="quote">
+                            <p>Well behaved, good environment, quality treatment, and excellent service...</p>
+                            </div>
                         </div>
-                        <div class="owl-dots" style="">
-                            <div class="owl-dot active"><span></span></div>
-                            <div class="owl-dot"><span></span></div>
-                            <div class="owl-dot"><span></span></div>
-                            <div class="owl-dot"><span></span></div>
-                            <div class="owl-dot"><span></span></div>
-                            <div class="owl-dot"><span></span></div>
+                        <div class="grid">
+                            <div class="client-info">
+                                <div class="client-pic">
+                                <img src="{{ asset('wtos-images/535619_images.jpg') }}" alt="" />
+                                </div>
+                                <h5>md ahasan</h5>
+                            </div>
+                            <div class="quote">
+                                <p>Get in touch with us for the best Service and Treatment</p>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="client-info">
+                                <div class="client-pic">
+                                    <img src="{{ asset('wtos-images/995147_images.jpg') }}" alt="" />
+                                </div>
+                                <h5>Supriya Chourasia</h5>
+                            </div>
+                            <div class="quote">
+                                <p>Get in touch with us for the best Service and Treatment</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </div>
     </div>
 </section>

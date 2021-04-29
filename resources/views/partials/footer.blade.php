@@ -109,6 +109,7 @@
 <script src="{{ asset('js/script.js') }}"></script>
 <script src="{{ asset('js/slide.js') }}" ></script>
 <script src="{{ asset('js/app.js') }}"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 <script>
     $(function(){
         $('#navbar li a').filter(function(){return this.href==location.href}).parent().addClass('active').siblings().removeClass('active')
