@@ -25,16 +25,28 @@ function showSlides(n) {
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 
-$("#news-slider").owlCarousel({
-	items : 3,
-	itemsDesktop:[1199,3],
-	itemsDesktopSmall:[980,2],
-	itemsMobile : [600,1],
-	navigation:true,
-	navigationText:["",""],
-	pagination:true,
-	autoPlay:true
-});
+
+
+$('#news-slider').owlCarousel({
+  loop:true,
+  margin:10,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      600:{
+          items:2,
+          nav:false
+      },
+      1000:{
+          items:3,
+          nav:true,
+          loop:false
+      }
+  }
+})
 
 $("#testimonial-slider").owlCarousel({
   items:1,
